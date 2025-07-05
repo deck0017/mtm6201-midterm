@@ -20,20 +20,21 @@
 <body>
 
   <!-- Nav Bar -->
-  <header>
-    <nav role="navigation" aria-label="Main navigation">
-      <img
-        src="images/my-coffee-shop-logo.svg"
-        alt="My Coffee House Logo"
-        width="120"
-      />
-      <ul>
-        <li><a href="#about">About Us</a></li>
-        <li><a href="#menu">Menu</a></li>
-        <li><a href="#locations">Locations</a></li>
-      </ul>
-    </nav>
-  </header>
+<header>
+  <nav class="navbar" role="navigation" aria-label="Main navigation">
+    <div class="nav-left">
+      <img src="images/my-coffee-shop-logo.svg" alt="My Coffee House Logo" />
+      <span class="brand-name">My Coffee House</span>
+    </div>
+    <div class="nav-right">
+      <button class="hamburger" aria-label="Toggle menu">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+    </div>
+  </nav>
+</header>
 
   <!-- Hero Section -->
   <section id="hero">
@@ -50,32 +51,25 @@
   </section>
 
   <!-- Welcome Section -->
-  <section id="welcome">
+<section id="welcome" class="welcome-section">
+  <div class="container">
     <h2>Welcome to My Coffee House</h2>
-    <h3>EXPERIENCE A NEW WAY TO TASTE COFFEE</h3>
-    <div class="welcome-gallery">
-      <img
-        src="images/latte.jpeg"
-        alt="Latte being poured with cream"
-      />
-      <img
-        src="images/coffee-beans.jpeg"
-        alt="Close-up of coffee beans"
-      />
-      <img
-        src="images/pouring-coffee.jpeg"
-        alt="Hot coffee being poured into a cup"
-      />
-      <img
-        src="images/three-cups.jpeg"
-        alt="Three cups of different coffees"
-      />
-      <img
-        src="images/smiling-employee.jpeg"
-        alt="Barista smiling while serving coffee"
-      />
+    <h3>Experience a New Way to Taste Coffee</h3>
+
+  
+    <div class="welcome-featured">
+      <img src="images/latte.jpeg" alt="Hot coffee being poured into a cup" />
     </div>
-  </section>
+
+ 
+    <div class="welcome-grid">
+      <img src="images/pouring-coffee.jpeg" alt="Latte being poured with cream" />
+      <img src="images/coffee-beans.jpeg" alt="Close-up of coffee beans" />
+      <img src="images/three-cups.jpeg" alt="Three cups of different coffees" />
+      <img src="images/smiling-employee.jpeg" alt="Barista smiling while serving coffee" />
+    </div>
+  </div>
+</section>
 
   <!-- Reasons -->
   <section id="reasons">
