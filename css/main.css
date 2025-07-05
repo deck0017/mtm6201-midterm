@@ -88,6 +88,72 @@ a:focus, button:focus {
   outline-offset: 2px;
 }
 
+/* Buttons */
+button, .btn, a.button {
+  font-family: 'Karla', sans-serif;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.6px;
+  display: inline-block;
+  background-color: #6b4f3b;
+  color: #fff;
+  padding: 0.75rem 1.5rem;
+  border-radius: 4px;
+  text-decoration: none;
+  transition: background-color 0.3s ease;
+}
+a.button:hover {
+  background-color: #5a3f2e;
+}
+
+/* Buttons */
+button, .btn, a.button {
+  font-family: 'Karla', sans-serif;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.6px;
+  display: inline-block;
+  background-color: #6b4f3b;
+  color: #fff;
+  padding: 0.75rem 1.5rem;
+  border-radius: 4px;
+  text-decoration: none;
+  transition: background-color 0.3s ease;
+}
+a.button:hover {
+  background-color: #5a3f2e;
+}
+
+/* Focus states */
+a:focus, button:focus {
+  outline: 2px dashed #6b4f3b;
+  outline-offset: 2px;
+}
+
+/* Buttons */
+button, .btn, a.button2 {
+  font-family: 'Karla', sans-serif;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.6px;
+  display: inline-block;
+  background-color: white;
+  color: black;
+  padding: 0.75rem 1.5rem;
+  border-radius: 4px;
+  text-decoration: none;
+  transition: background-color 0.3s ease;
+}
+a.button:hover {
+  background-color: #5a3f2e;
+}
+
+/* Focus states */
+a:focus, button:focus {
+  outline: 2px dashed #6b4f3b;
+  outline-offset: 2px;
+}
+
 /* Typography — Mobile First */
 h1 { font-size: 2rem; }
 h2 { font-size: 1.75rem; }
@@ -100,6 +166,8 @@ p  { font-size: 1rem; }
   max-width: 40rem;
   margin: 0 auto;
 }
+
+
 
 /* Navigation — Mobile */
 nav {
@@ -332,6 +400,9 @@ nav a:hover {
 }
 
 /* Testimonials — Stacked */
+
+h2 {color: orange;}
+
 #testimonials {
   background-color: black;
   padding: 3rem 1rem;
