@@ -60,3 +60,90 @@ p {
   }
 }
 
+/* Container */
+.container {
+  padding: 0 1rem;
+  max-width: 40rem;    /* ~640px */
+  margin: 0 auto;
+}
+
+/* Stack nav items */
+nav ul {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 1rem 0;
+  list-style: none;
+  margin: 0;
+}
+
+nav img {
+  margin-bottom: 1rem;
+  width: 120px;
+}
+
+/* Hero */
+#hero {
+  height: 60vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  background: url('../images/hero-background.jpg') center/cover no-repeat;
+}
+
+.hero-overlay {
+  background: rgba(0,0,0,0.5);
+  padding: 1.5rem;
+  border-radius: 8px;
+  color: #fff;
+}
+
+/* Feature cards */
+#reasons .container {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  padding-top: 2rem;
+}
+
+#reasons .reasons {
+  text-align: center;
+}
+
+#reasons img {
+  width: 64px;
+  margin-bottom: 0.75rem;
+}
+
+/* Menu & Locations buttons */
+#menu .container,
+#locations .container {
+  text-align: center;
+}
+
+#menu img,
+#about img {
+  width: 100%;
+  border-radius: 8px;
+  margin-bottom: 1rem;
+}
+
+/* Testimonials */
+#testimonials .container {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+
+#testimonials blockquote {
+  text-align: center;
+  padding: 1rem;
+  border-left: 4px solid #6b4f3b;
+}
+
+/* Images */
+img {
+  max-width: 100%;
+  height: auto;
+}
