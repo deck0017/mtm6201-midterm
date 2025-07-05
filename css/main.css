@@ -174,6 +174,56 @@ nav a:hover {
 
 /* Welcome Section — Horizontal Scroll Gallery */
 /* Welcome Section */
+@media (max-width: 767px) {
+  /* Welcome Section */
+  .welcome-section {
+    background-color: #fff;
+    padding: 3rem 1rem;
+    text-align: center;
+  }
+
+  .welcome-section h2 {
+    font-size: 2rem;
+    color: #6b4f3b;
+    margin-bottom: 0.5rem;
+  }
+
+  .welcome-section h3 {
+    font-size: 1.25rem;
+    color: #333;
+    margin-bottom: 2rem;
+  }
+
+  /* Large featured image */
+  .welcome-featured img {
+    width: 100%;
+    max-height: 400px;
+    object-fit: cover;
+    border-radius: 8px;
+    margin-bottom: 2rem;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  }
+
+  /* 2x2 Grid */
+  .welcome-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 1rem;
+  }
+
+  .welcome-grid img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
+    transition: transform 0.3s ease;
+  }
+
+  .welcome-grid img:hover {
+    transform: scale(1.03);
+  }
+}
 /* Welcome Section */
 .welcome-section {
   background-color: #fff;
@@ -223,47 +273,49 @@ nav a:hover {
   transform: scale(1.03);
 }
 
-/* Reasons Section — Mobile Cards */
-#reasons {
-  background: #f7f3f0;
-  padding: 2rem 1rem;
-}
-#reasons h2,
-#reasons h3 {
-  text-align: center;
-  margin-bottom: 1rem;
-}
-#reasons .container {
-  display: flex;
-  flex-direction: column;
-  gap: 1.5rem;
-}
-#reasons .reasons {
-  background: #fff;
-  border-radius: 8px;
-  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
-  padding: 1.5rem;
-  text-align: center;
-}
-#reasons .reasons img {
-  display: block;
-  margin: 0 auto 1rem;
-  width: 80px;
-  height: 80px;
-  transition: transform 0.3s ease;
-}
-#reasons .reasons:hover img {
-  transform: scale(1.1);
-}
-#reasons .reasons h4 {
-  font-size: 1.25rem;
-  margin-bottom: 0.5rem;
-}
-#reasons .reasons p {
-  font-size: 0.95rem;
-  color: #555;
-  line-height: 1.5;
-  margin: 0;
+@media (max-width: 767px) {
+  .reasons-section {
+    background: #f7f3f0;
+    padding: 3rem 1rem;
+    text-align: center;
+  }
+
+  .reasons-section h2,
+  .reasons-section h3 {
+    margin-bottom: 1.5rem;
+    color: #6b4f3b;
+  }
+
+  .reason-card {
+    background: #fff;
+    border-radius: 12px;
+    padding: 2rem 1.5rem;
+    margin-bottom: 2rem;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
+  }
+
+  .reason-card img {
+    width: 100px; 
+    height: 100px;
+    margin-bottom: 1rem;
+    transition: transform 0.3s ease;
+  }
+
+  .reason-card:hover img {
+    transform: scale(1.1);
+  }
+
+  .reason-card h4 {
+    font-size: 1.25rem;
+    margin-bottom: 0.75rem;
+    color: #333;
+  }
+
+  .reason-card p {
+    font-size: 1rem;
+    color: #555;
+    line-height: 1.6;
+  }
 }
 
 /* Menu & Locations — Centered */
