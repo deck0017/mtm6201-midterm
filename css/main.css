@@ -1,4 +1,13 @@
-h2 {color: orange;}
+
+
+
+
+h2 {color: #d69e3d;}
+body {
+  background-color: #f3f0e9;
+}
+
+
 
 
 /* CSS Variables */
@@ -8,8 +17,8 @@ h2 {color: orange;}
 
   --color-text: #333;
   --color-bg: #fff;
-  --color-primary: #6b4f3b;
-  --color-primary-dark: #5a3f2e;
+  --color-primary: #966f2c;
+  --color-primary-dark: #966f2c;
   --color-overlay: rgba(0, 0, 0, 0.5);
   --color-white: #fff;
   --color-black: #000;
