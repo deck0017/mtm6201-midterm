@@ -174,6 +174,43 @@ a, button {
   transition: transform 0.3s ease;
 }
 
+/* Tablet Welcome */
+
+@media (min-width: 768px) {
+  .welcome-layout {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: var(--space-md);
+    align-items: center;
+  }
+
+  .welcome-featured img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+    object-fit: cover;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  }
+
+  .welcome-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: var(--space-sm);
+  }
+
+  .welcome-grid img {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+    border-radius: 8px;
+    transition: transform 0.3s ease;
+  }
+
+  .welcome-grid img:hover {
+    transform: scale(1.03);
+  }
+}
+
 /* Reasons Section */
 .reasons-section {
   background: #f7f3f0;
