@@ -283,6 +283,7 @@ a, button {
     flex-direction: row;
     justify-content: space-between;
     align-items: stretch;
+    
   }
 
   .reason-card {
@@ -296,6 +297,36 @@ a, button {
 
   .reason-card img {
     width: 100px;
+  }
+
+  .reason-text {
+    flex: 1;
+  }
+}
+
+@media (min-width: 1024px) {
+  .reason-grid {
+    display: flex;
+    flex-direction: row;
+    justify-content: center; /* center the cards as a group */
+    align-items: stretch;
+    gap: 2rem; /* spacing between cards */
+    max-width: 1200px; /* controls total width of grid */
+    margin: 0 auto; /* centers the entire grid */
+  }
+
+  .reason-card {
+    flex-direction: row;
+    text-align: left;
+    align-items: flex-start;
+    flex: 1 1 0;
+    max-width: 350px;
+    gap: 1.5rem;
+  }
+
+  .reason-card img {
+    width: 100px;
+    flex-shrink: 0;
   }
 
   .reason-text {
