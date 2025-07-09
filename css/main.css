@@ -1,4 +1,12 @@
+:root {
+  --max-wrapper: 1200px; 
+}
 
+.container {
+  max-width: var(--max-wrapper);
+  margin: 0 auto;
+  padding: 0 1rem; 
+}
 
 
 
@@ -20,7 +28,7 @@ body {
 
 .hero-overlay {
   animation: fadeUp 1.2s ease-in-out forwards;
-  opacity: 0; /* Initial state to ensure fade effect */
+  opacity: 0; 
 }
 
 
@@ -71,6 +79,27 @@ body {
 }
 
 /*  Typography */
+@import url('https://fonts.googleapis.com/css2?family=Karla&family=Lato:wght@400;700&display=swap');
+
+:root {
+  --font-heading: 'Lato', sans-serif;
+  --font-body: 'Karla', sans-serif;
+  --color-accent: #966f2c; 
+}
+
+/* Typography Assignments */
+h1, h2, h3, h4, h5, h6,
+nav {
+  font-family: var(--font-heading);
+}
+
+body,
+p,
+button,
+a {
+  font-family: var(--font-body);
+}
+
 h1, h2, h3, h4, h5, h6 {
   font-family: var(--font-heading);
   margin-bottom: var(--space-sm);
