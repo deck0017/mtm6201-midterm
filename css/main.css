@@ -80,7 +80,8 @@ a, button {
 
 /* Navigation */
 .navbar {
-  color: black;
+  background-color: black;
+  color: white;
   position: sticky;
   top: 0;
   z-index: 1000;
@@ -242,7 +243,67 @@ a, button {
   margin-top: var(--space-md);
 }
 
-/* Top two cards side by side on tablet */
+/* Desktop Section */
+.reasons-section {
+  background: #f7f3f0;
+  padding: var(--space-lg) var(--space-sm);
+  text-align: center;
+}
+
+.reason-grid {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  margin-top: var(--space-md);
+  align-items: center;
+}
+
+/* Basic card styles */
+.reason-card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  max-width: 600px;
+  text-align: center;
+  background: #fff;
+  padding: 2rem;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
+  gap: 1rem;
+}
+
+.reason-card img {
+  width: 80px;
+  height: auto;
+}
+
+/* Desktop layout: horizontal alignment */
+@media (min-width: 1024px) {
+  .reason-grid {
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: stretch;
+  }
+
+  .reason-card {
+    flex-direction: row;
+    text-align: left;
+    align-items: flex-start;
+    max-width: none;
+    flex: 1;
+    gap: 1.5rem;
+  }
+
+  .reason-card img {
+    width: 100px;
+  }
+
+  .reason-text {
+    flex: 1;
+  }
+}
+
+/* Top two cards tablet */
 .row-top {
   display: flex;
   flex-direction: column;
