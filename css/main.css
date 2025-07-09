@@ -334,6 +334,67 @@ a, button {
   }
 }
 
+/* About Us Desktop */
+.about-section {
+  padding: var(--space-lg) var(--space-md);
+  background-color: #fff;
+}
+
+.about-layout {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+
+.about-image img {
+  width: 100%;
+  border-radius: 8px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
+}
+
+/* Headings & text styles */
+.about-text h2 {
+  color: var(--color-accent);
+  font-size: 1rem;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  margin-bottom: 0.5rem;
+}
+
+.about-text h3 {
+  font-size: 2rem;
+  margin-bottom: 1rem;
+}
+
+.about-text p {
+  margin-bottom: 1rem;
+  line-height: 1.6;
+  color: #444;
+}
+
+.about-text .btn {
+  margin-top: 1rem;
+}
+
+/* Desktop Layout Only */
+@media (min-width: 1024px) {
+  .about-layout {
+    flex-direction: row;
+    align-items: center;
+  }
+
+  .about-image {
+    flex: 1;
+  }
+
+  .about-text {
+    flex: 1;
+    padding-left: 2rem;
+    text-align: left;
+  }
+}
+
+
 
 
 /* Top two cards tablet */
