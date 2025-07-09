@@ -83,18 +83,16 @@ a, button {
 
 /* Navigation */
 .navbar {
-  background-color: black;
-  color: white;
   position: sticky;
   top: 0;
-  z-index: 1000;
+  background: var(--color-black);
+  color: var(--color-white);
   display: flex;
   justify-content: space-between;
   align-items: center;
   padding: var(--space-sm) var(--space-md);
-  background: transparent;
+  z-index: 1000;
 }
-
 .nav-left {
   display: flex;
   align-items: center;
@@ -102,14 +100,8 @@ a, button {
   border-bottom: 2px solid var(--color-white);
   padding-bottom: var(--space-xs);
 }
-.nav-left img {
-  width: 40px;
-}
-.brand-name {
-  font-weight: bold;
-  color: var(--color-white);
-}
-
+.nav-left img { width: 30px; }
+.brand-name   { font-weight: bold; color: var(--color-white); }
 .hamburger {
   background: none;
   border: none;
@@ -118,6 +110,7 @@ a, button {
   gap: var(--space-xs);
 }
 .hamburger span {
+  display: block;
   width: 25px;
   height: 3px;
   background: var(--color-white);
@@ -161,6 +154,15 @@ a, button {
   background: var(--color-bg);
   padding: var(--space-lg) var(--space-sm);
   text-align: center;
+  .welcome-subheading {
+  text-align: left;
+  margin-left: 0;
+  padding-left: 1em; 
+  font-size: 1.8rem;
+  .welcome-section .container {
+  display: block; 
+}
+}
 }
 .welcome-featured img,
 .welcome-grid img {
