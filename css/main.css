@@ -206,7 +206,6 @@ a, button {
 .welcome-section {
   background: var(--color-bg);
   padding: var(--space-lg) var(--space-sm);
-  text-align: center;
   .welcome-subheading {
   text-align: left;
   margin-left: 0;
@@ -538,6 +537,7 @@ a, button {
     grid-template-columns: repeat(3, 1fr);
     grid-template-areas:
       "card1 card2 card3";
+      
   }
 }
 
@@ -649,7 +649,7 @@ a, button {
   background: var(--color-black);
   color: var(--color-white);
   padding: var(--space-lg) var(--space-sm);
-  text-align: center;
+  text-align: left;
 }
 #testimonials .container {
   display: flex;
@@ -695,6 +695,7 @@ a, button {
   padding: 1rem;
   font-size: 0.95rem;
   margin-top: 0rem;
+  padding-top: 4rem;
 }
 
 .footer-line {
