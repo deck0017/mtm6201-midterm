@@ -725,10 +725,20 @@ a, button {
   color: #333;
 }
 
+.menu-list-btn:hover {
+  background-color: #966f2c;
+  color: white;
+}
+
 .view-locations-btn {
 
   color: #ffffff;
   border: 2px solid #ffffff;
+}
+
+.view-locations-btn:hover {
+  background-color: white;
+  color: black;
 }
 
 .learn-more-btn {
