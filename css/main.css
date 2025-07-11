@@ -1,3 +1,4 @@
+
 :root {
   --max-wrapper: 1200px; 
 }
@@ -667,7 +668,7 @@ a, button {
   object-fit: cover;
 }
 .testimonial-overlay {
-  background: rgba(0,0,0,0.7);
+  background: #966f2c;
   color: var(--color-white);
   padding: var(--space-md);
   text-align: left;
