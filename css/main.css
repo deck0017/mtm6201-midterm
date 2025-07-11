@@ -708,6 +708,7 @@ a, button {
 
 
 .btn {
+  text-decoration-line: none;
   padding: 1em 2em;
   border: none;
   font-weight: bold;
