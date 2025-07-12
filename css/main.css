@@ -412,7 +412,7 @@ a, button {
 
 /* Headings & text styles */
 .about-text h2 {
-  color: var(--color-accent);
+  color: #d69e3d;
   font-size: 1rem;
   letter-spacing: 1px;
   text-transform: uppercase;
@@ -780,3 +780,4 @@ a, button {
   z-index: 2;
   color: white;
 }
+
